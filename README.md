@@ -32,12 +32,12 @@ line consists of:
 keyword[arbitrary amount of whitespace]Affiliation name and address, as LaTeX code, any characters you want
 ```
 
-The directory `example/` is just that. This example shows:
+The directory [example/](example/) is just that. This example shows:
 * Where whitespace does and doesn't go
 * Where `LaTeX` code goes
 * The affiliation list order determined from the author list
 * Multiple affiliations per author keep their order
-* `Makefile` usage is encouraged and the rule is very simple
+* [Makefile](example/Makefile) usage is encouraged and the rule is very simple
 
 I haven't put in any error checking or other niceties. Feel free to
 fork and send me a pull request if you want to improve the code! :)
