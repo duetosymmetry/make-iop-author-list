@@ -1,3 +1,6 @@
 Gilles~Esposito-Far\'ese  greco
 Clifford~M.~Will          ufl,greco     % This comment is ignored
+  
+% Blank lines, whitespace-only lines,
+ % and whitespace-and-comment lines are ignored
 Steven~Detweiler          ufl
