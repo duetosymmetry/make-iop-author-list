@@ -11,7 +11,7 @@ def readAffilMap(filename):
     """ Reads from filename a map of {affiliation-key: affiliation-address}. """
     
     f = open(filename, 'r')
-    affilMap = dict([tuple(l.rstrip().split(None,1)) for l in f.readlines()])
+    affilMap = dict([tuple(l.split('%',1)[0].rstrip().split(None,1)) for l in f.readlines()])
     f.close()
     
     return affilMap
@@ -21,7 +21,7 @@ def readAuthorList(filename):
     
     f = open(filename, 'r')
     authorList = map( lambda x: [ x[0], x[1].split(',') ],
-                      [l.rstrip().split(None,1) for l in f.readlines()] )
+                      [l.split('%',1)[0].rstrip().split(None,1) for l in f.readlines()] )
     f.close()
     
     return authorList
