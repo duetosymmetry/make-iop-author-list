@@ -1,7 +1,8 @@
 make-iop-author-list
 ====================
 
-Generates `LaTeX` code for an IOP publication author list
+Generates `LaTeX` code for an IOP publication author list (e.g. for
+ApJ, AJ, etc.).
 
 I wrote this barebones script to automate the annoyance of IOP's
 `iopart.cls` lacking proper `\affiliation` and `\author` handling.
